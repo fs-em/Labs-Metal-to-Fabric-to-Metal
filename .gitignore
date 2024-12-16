@@ -1,0 +1,14 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform variable overrides
+terraform.tfvars
+*.auto.tfvars
+
+# Ignore sensitive provider files
+*.tfvars.json
+
+# Ignore Terraform cache
+.terraform/
+.terraform.lock.hcl
